@@ -110,22 +110,9 @@ input[type="checkbox" i] {
 .chatbox-title, .chatbox-title a.chat-title {
     color: #!important;
 }
-::selection{background:var(--accent); color:#fafafa; text-shadow: none !important}
 #fa_toolbar{display:none;}
 div#main {overflow: visible!important;}
-::-webkit-scrollbar {
-    background: var(--background);
-    border-left: var(--border);
-    height: 5px !important;
-    width: 10px !important;
-}
-::-webkit-scrollbar-thumb {
-    background: var(--gradient);
-    border-radiusadius: 10px;
-    border: var(--border);
-    border-left-width: 0;
-    border-radiusight-width: 0;
-}
+
 .jqmWindow h1 {
     font-weight: 900;
     color: var(--accent);
@@ -672,10 +659,10 @@ dl.codebox dd code {
     background: var(--background);
     border-left: var(--border);
     height: 5px !important;
-    width: 10px !important;
+    width: 5px !important;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--background-2);
+    background: var(--accent);
     border-radiusadius: 10px;
     border: var(--border);
     border-left-width: 0;
