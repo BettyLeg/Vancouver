@@ -1797,3 +1797,40 @@ div.sceditor-dropdown input:focus {
 #live_notif {
   display: none;
 }
+div#info_open {
+    margin-top: 30px;
+    display: grid !important;
+    gap: 5px;
+}
+
+div#info_open .h3 {
+    background: var(--gradient);
+    padding: 10px 20px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    font-size: .7rem;
+    color: #aaa;
+    font-weight: 600;
+}
+
+div#info_open p strong:not(:first-child) {padding-left: 30px;}
+
+div#info_open p {
+    display: flex;
+    border: var(--border);
+    background: var(--background);
+    padding: 14px 20px;
+    margin-bottom: 35px;
+    border-radius: var(--border-radius);
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: 700;
+    text-shadow: var(--text-shadow);
+}
+
+div#info_open p strong {
+    padding-right: 5px;
+    color: var(--accent);
+}
