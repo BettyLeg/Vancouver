@@ -1380,51 +1380,13 @@ cursor: pointer;
 }
 
 /* Positionnement des ronds */
-.switcheroo__squircles {
-  margin: 0;
-  padding: 5px;
-  list-style: none;
-  display: flex;
-  gap: 7px;
-  flex-wrap: wrap;
-}
-    div#changeJ-boton {
-    left: 20px;
-    position: absolute;
-    top: 20px;
+.switcheroo__squircles{
+    margin: 0;
+    padding: 5px;
+    list-style: none;
     display: flex;
-    align-items: center;
-    padding: 0 20px 0 10px;
-    justify-content: space-between;
-    width: 160px;
-    background: var(--background);
-    border: var(--border);
-    border-radiusadius: var(--border-radius-2);
-    height: 30px;
-    font-size: .7rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-style: italic;
-    box-sizing: border-box;
-}
-
-div#changeJ-boton > i {
-    font-size: 1rem;
-}
-    .semp-r-c-t-usern img {
-    display: none;
-}
-div#changePJ {
-  overflow: hidden;
-  display: none;
-  max-width: 256px;
-  border: var(--border);
-  background: var(--background);
-  border-radiusadius: var(--border-radius-2);
-  position: absolute;
-  top: 60px;
-  left: 20px;
-  min-width: 250px;
+    gap: 0px;
+    justify-content: flex-end;
 }
 .switcheroo[direction="vertical"] .switcheroo__squircles {
   flex-direction: column;
@@ -1443,12 +1405,17 @@ div#changePJ {
 
 /* Rond */
 .switcheroo__squircle {
-  position: relative;
-  width: 40px;
-  cursor: pointer;
-  transition: border-radiusadius 128ms var(--ease);
-  margin-left: 0;
-  height: 40px;
+    position: relative;
+    cursor: pointer;
+    transition: border-radiusadius 128ms var(--ease);
+    margin-left: 0;
+    height: 40px;
+    border: var(--border);
+    box-sizing: border-box;
+    clip-path: polygon(97% 0%, 87% 100%, 0% 100%, 14% 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
  /* Rond au survol */
 .switcheroo__squircle:hover {
@@ -1460,13 +1427,10 @@ div#changePJ {
     height: 40px;
     object-fit: cover;
     object-position: center;
-    border-radiusadius: 5px;
     transition: border-radiusadius 128ms var(--ease);
     position: relative;
-    mix-blend-mode: luminosity;
-    opacity: .5;
     border: var(--border);
-    filter: grayscale(1);
+    filter: grayscale(1) brightness(0.8);
 }
 .switcheroo__squircle.active .switcheroo__avatar img{filter: grayscale(0);}
 /* Avatar du compte connecté */
@@ -1507,22 +1471,19 @@ div#changePJ {
 
 /* Bouton de suppression */
 .switcheroo__delete {
-    opacity: 0;
     display: grid;
     place-items: center;
     position: absolute;
-    width: 16px;
-    height: 16px;
-    top: -5px;
-    right: -8px;
-    border-radiusadius: 50%;
-    background: var(--background);
+    width: 20px;
+    height: 20px;
     opacity: 0;
     font-size: .65rem;
     transition: transform 128ms var(--ease), opacity 64ms var(--ease);
     cursor: pointer;
     color: #fff;
     border: var(--border);
+    background: var(--accent);
+    border-radius: var(--border-radius);
 }
 .switcheroo__squircle:hover .switcheroo__delete {
   opacity: 1;
