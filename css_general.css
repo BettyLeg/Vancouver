@@ -816,57 +816,11 @@ div#tabs ul li:nth-last-child(2) {
     display: none;
 }
 div#page-footer .navbar {
-  width: 1150px;
-  margin: 50px auto 0;
-  position: relative;
-  top: 10px;
-}
-
-.sempt-primer-tema {
-  border: var(--border);
-  border-radiusadius: var(--border-radius-2);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  height: 30px;
-  gap: 20px;
-  background: var(--background);
-  margin: -15px 0 0;
-  overflow: hidden;
-  text-shadow: var(--text-shadow);
-  font-weight: 800;
-  font-size: .68rem;
-  text-transform: uppercase;
-  letter-spacing: .5px;
-}
-.sempt-primer-tema > i {
-  border-radiusight: var(--border);
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70px;
-  background: var(--background);
-  font-size: 1rem;
-  color: var(--gr2);
-}
-
-.semp-f-pagination a {
-  background: var(--background) !important;
-  color: var(--accent) !important;
-  padding: 2px 1px !important;
-  border-radiusadius: 10px !important;
-  font-weight: 800 !important;
-  text-shadow: var(--text-shadow);
-  margin: 0 !important;
-}
-.semp-f-pagination > strong > span {
-  display: flex;
-  gap: 3px;
-  margin: 0 !important;
-}
-.semp-f-pagination > strong {
-  margin: 0;
+    width: var(--contenido);
+    margin: 50px auto 0;
+    position: relative;
+    border-radius: var(--border-radius);
+    text-shadow: var(--text-shadow);
 }
 div#cp-main .panel label {
     font-weight: 500;
