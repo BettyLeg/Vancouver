@@ -703,7 +703,22 @@ form[name="go_page"] table {
     padding: 0;
     width: 240px;
 }
-
+#s-m-t-tooltip {
+    max-width: 350px;
+    z-index: 1000000 !important;
+    margin: 25px 0 0 0;
+    padding: 7px 10px;
+    background: var(--background);
+    font-family: var(--font-text);
+    text-shadow: var(--text-shadow);
+    font-size: .7rem;
+    line-height: 16px;
+    color: var(--accent);
+    border: var(--border);
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: var(--border-radius);
+}
 form[name="go_page"] th.thHead {
     background: var(--background);
     color: #fff;
@@ -743,69 +758,6 @@ form[name="go_page"] tr td {
     padding: 10px;
 }
 
-.semp-pag {
-    font-size: 0;
-    display: flex;
-    gap: 4px;
-}
-
-.semp-pag > a {
-    font-size: .7rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-shadow: var(--text-shadow);
-    letter-spacing: .5px;
-}
-
-.semp-pag > span > strong, .semp-pag > span > a {
-    padding: 5px 8px;
-    font-size: .7rem;
-    border-radiusadius: 5px;
-    border: var(--border);
-    box-sizing: border-box;
-    background: var(--background);
-    color: #fafafa;
-}
-
-.semp-pag > span > a {
-    background: var(--gr2);
-    color: #fafafa;
-    text-shadow: none;
-}
-
-.semp-path > a {
-    font-size: .65rem;
-    text-shadow: var(--text-shadow);
-    text-transform: uppercase;
-    letter-spacing: .5px;
-    font-weight: 800;
-}
-
-.semp-path {
-    font-size: 0;
-    display: flex;
-    gap: 2px;
-}
-
-.semp-path > a:not(:last-child):after {
-    content: "/";
-    padding-left: 5px;
-}
-.semp-path > a:last-child {
-    font-style: italic;
-    letter-spacing: 0;
-    background: var(--background);
-    text-shadow: none;
-    color: #fafafa;
-    padding: 0px 5px;
-    border-radiusadius: 4px;
-}
-.semp-path.vigilar > a:last-child {
-    padding: 5px 10px;
-}
-.semp-header.semp-header-tema img {
-  display: none;
-}
 #cp-main h1 {
     border-bottom: none;
     margin-left: 0;
