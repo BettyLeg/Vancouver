@@ -485,7 +485,7 @@ div.sceditor-dropdown a, div.sceditor-dropdown a:link {
 div.sceditor-dropdown label{color:var(--accent);text-transform:uppercase;font-size:.7rem;font-weight:800;font-style:italic;}
 div.sceditor-dropdown input:focus,div.sceditor-dropdown textarea:focus{background:var(--accent);color:var(--background);text-transform:uppercase;font-size:.65rem;font-weight:800;}
 div.sceditor-dropdown .button:hover{background:var(--background);color:var(--accent)}
-.cajon-respuesta{border:var(--border);background:var(--background);border-radius:var(--border-radius);}
+.cajon-respuesta{border:var(--border);background:var(--background-transparent);border-radius:var(--border-radius);}
 .cajon-respuesta form#quick_reply #textarea_content{width:100%!important;margin:0 40px}
 .cajon-respuesta form#quick_reply {
     padding: 15px;
