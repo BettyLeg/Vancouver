@@ -698,7 +698,6 @@ div#fa_toolbar {
 }
 .corners-bottom,.corners-top,div#main-content > div[style="overflow:visible"]{display:none!important;}
 a#fa_notifications {
-    font-size: 0!important;
     cursor: pointer;
     position: relative;
 }
