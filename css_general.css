@@ -61,7 +61,7 @@ select {
     text-transform: uppercase;
     font-size: .75rem;
     padding: 5.5px;
-    border-radiusadius: 5px;
+    border-radius: 5px;
     background: var(--background);
     font-weight: 600;
 }
@@ -93,7 +93,7 @@ select {
     padding: 2px 10px;
     box-sizing: border-box;
     width: 100%;
-    border-radiusadius:var(--border-radiusadius);
+    border-radius:var(--border-radius);
 }
 .navbar li strong, .navbar li a {
     font-size: .6rem;
@@ -122,13 +122,13 @@ div#main {overflow: visible!important;}
 .jqmWindow, #find_username {
     background: var(--background);
     border: var(--border);
-    border-radiusadius: var(--border-radiusadius);
+    border-radius: var(--border-radius);
     padding: 10px;
 }
 input {
     background: var(--background);
     border: var(--border)!important;
-    border-radiusadius: var(--border-radiusadius) !important;
+    border-radius: var(--border-radius) !important;
 }
 .corners-bottom,.corners-top,div#main-content > div[style="overflow:visible"]{display:none!important;}
 .conteneur_minwidth_IE:after {
@@ -147,7 +147,7 @@ input:focus-visible {
 #cp-main {
     border: var(--border);
     background: var(--background);
-    border-radiusadius: var(--border-radiusadius);
+    border-radius: var(--border-radius);
     margin: 0 !important;
     overflow: hidden;
 }
@@ -181,7 +181,7 @@ fieldset.submit-buttons {
     align-items: center;
     justify-content: center;
     background: var(--background);
-    border-radiusadius: 3px;
+    border-radius: 3px;
     font-size: 12px;
     font-weight: 500;
     color: var(--accent);
@@ -194,7 +194,7 @@ fieldset.submit-buttons {
     align-items: center;
     justify-content: center;
     background: var(--background);
-    border-radiusadius: var(--border-radiusadius);
+    border-radius: var(--border-radius);
     font-size: 12px;
     font-weight: 500;
     color: var(--accent);
@@ -233,10 +233,10 @@ div#tabs > ul {
     letter-spacing: .5px;
     font-size: .68rem;
     text-shadow: var(--text-shadow);
-    border-radiusadius: var(--border-radiusadius);
+    border-radius: var(--border-radius);
 }
 .panel.row3 {
-    border-radiusadius: var(--border-radiusadius);
+    border-radius: var(--border-radius);
     border: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -278,7 +278,7 @@ h1.page-tit {
     border: var(--border);
     background: var(--background);
     font-size: .8rem;
-    border-radiusadius: var(--border-radius);
+    border-radius: var(--border-radius);
     width: 538px;
     flex-grow: 1;
     box-sizing: border-box;
@@ -296,7 +296,7 @@ fieldset dl {
 #cp-main .panel {
     padding: 10px;
     font-size: .74rem;
-    border-radiusadius: var(--border-radius);
+    border-radius: var(--border-radius);
     background: var(--background);
 }
 #tabs .activetab a span {
@@ -378,7 +378,7 @@ a.button1, input.button1, a.button2, input.button2, button.button2, .external-mo
     border: var(--border)!important;
     background:var(--background)!important;
     padding: 5px;
-    border-radiusadius: 8px;
+    border-radius: 8px;
 }
 .sceditor-toolbar {
     padding: 20px 0px!important;
@@ -398,7 +398,7 @@ a.button1, input.button1, a.button2, input.button2, button.button2, .external-mo
     background: var(--background);
     border: var(--border)!important;
     color: var(--color-text);
-    border-radiusadius: var(--border-radius);
+    border-radius: var(--border-radius);
     overflow: hidden;
 }
 
@@ -415,7 +415,7 @@ form[name="go_page"] {
     background: var(--background);
     font-size: .7rem;
     font-family: var(--font-text);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     overflow: hidden;
 }
 
@@ -464,7 +464,7 @@ form[name="go_page"] tr td {
 }
 .sceditor-toolbar{padding:20px 60px!important;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
 .sceditor-button.active,.sceditor-button:active,.sceditor-button:hover{box-shadow:none!important;background: var(--background) !important;}
-.sceditor-dropdown{background:var(--background)!important;border:var(--border)!important;color:var(--accent)!important; border-radiusadius: var(--border-radius-2) !important}
+.sceditor-dropdown{background:var(--background)!important;border:var(--border)!important;color:var(--accent)!important; border-radius: var(--border-radius-2) !important}
 div.sceditor-dropd.sceditor-toolbar{padding:20px 60px!important;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
 .sceditor-container .sceditor-button>i{color:var(--accent)!important;text-shadow:var(--text-shadow);font-size: .78rem !important;}
 div.sceditor-dropdown a,div.sceditor-dropdown a:link{color:var(--accent)!important}
@@ -477,7 +477,7 @@ div.sceditor-dropdown a, div.sceditor-dropdown a:link {
     background: var(--background);
     margin: 0 5px 5px;
     border: var(--border);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     box-sizing: border-box;
     font-size: .7rem;
         font-family: var(--font-text);
@@ -531,13 +531,13 @@ div#find_username {
 
 blockquote {
     border: 0;
-    border-radiusadius: 0;
+    border-radius: 0;
     padding: 0;
     margin: 0;
 }
 input {
     border: var(--border)!important;
-    border-radiusadius: 4px;
+    border-radius: 4px;
     padding: 5px 10px!important;
     background: var(--background);
     margin: 4px 0px;
@@ -551,7 +551,7 @@ select {
   font-family: 'Poppins';
   font-size: .8rem;
   padding: 2px 5px;
-  border-radiusadius: 5px;
+  border-radius: 5px;
   padding: 4px 10px !important;
   text-shadow: var(--text-shadow);
   font-family: var(--font-text);
@@ -599,7 +599,7 @@ blockquote > div {
     padding: 10px;
     position: relative;
     margin: 5px 10px;
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     overflow: hidden;
 }
 dl.codebox dt {
@@ -619,7 +619,7 @@ dl.codebox {
     padding: 0px;
     margin:10px;
     background: var(--background);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     overflow: hidden;
 }
 dl.codebox code {
@@ -654,7 +654,7 @@ body.chatbox{background:#161616;font-family:Arial;}
 #chatbox_header{background: #101010;border-bottom: 1px solid #222;height: 29px;}
 #chatbox_footer{height: 25px; background: #111; border-top: 1px solid #222; color: #aaa; font-size: 12px;}
 a.chat-title{font-family: monospace; color: #444; font-weight: 900; font-size: 19px; padding-left: 10px;}
-#nb-users-connected{background-color: transparent; padding: 0px 6px 6px 10px; border-radiusadius: 0; margin: 0 5px; color: #444;}
+#nb-users-connected{background-color: transparent; padding: 0px 6px 6px 10px; border-radius: 0; margin: 0 5px; color: #444;}
 ul#chatbox_main_options a{color: #aaa; font-family: monospace; text-transform: uppercase; font-size: 11px;}
 div#chatbox_footer label[for="message"]{text-transform: uppercase; font-weight: 900; font-size: 11px; padding: 0px 5px; font-family: monospace;}
 div#chatbox_footer input[type="submit"]{border: 1px solid #222; background: #222; color: #aaa!important; padding: 3px 26px 19px; text-transform: uppercase; font-weight: 900; font-family: monospace;}
@@ -688,7 +688,7 @@ dl.codebox dd code {
 }
 ::-webkit-scrollbar-thumb {
     background: var(--accent);
-    border-radiusadius: 10px;
+    border-radius: 10px;
     border: var(--border);
     border-left-width: 0;
     border-radiusight-width: 0;
@@ -706,7 +706,7 @@ form[name="go_page"] {
     background: var(--background);
     font-size: .7rem;
     font-family: var(--font-text);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     overflow: hidden;
 }
 
@@ -807,7 +807,7 @@ div#cp-main .panel dl {
     border: var(--border);
     box-sizing: border-box;
     width: auto !important;
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     background: var(--background);
     font-family: 'Poppins';
     font-weight: 500 !important;
@@ -819,7 +819,7 @@ div#cp-main .panel dl {
 form#ucp fieldset dl {
     border: var(--border);
     width: calc(98.9% / 2);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     background: var(--background);
     flex-grow: 1;
     display: flex;
@@ -882,7 +882,7 @@ dl.descargalainformaciónycontenidoquehaspublicadoenesteforo .italic {
 dl.descargalainformaciónycontenidoquehaspublicadoenesteforo dd > a {
     width: 100% !important;
     padding: 5px !important;
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     border: var(--border);
     text-align: center;
     box-sizing: border-box;
@@ -928,7 +928,7 @@ form#ucp fieldset dt {
     text-transform: uppercase;
     font-size: .65rem;
     color: #fafafa;
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     border: var(--border);
 }
 form#ucp .italic, form#ucp br {
@@ -939,7 +939,7 @@ form#ucp .panel {
     padding: 0;
     margin-bottom: 70px !important;
     background: transparent;
-    border-radiusadius: 0;
+    border-radius: 0;
 }
 form#ucp fieldset.submit-buttons {
     background: transparent;
@@ -971,13 +971,13 @@ dl.muestraunapequeñaimagenentusmensajes\.sólopuedemostrarseunaimagenalavez\,su
     width: 250px;
     height: 400px;
     border: var(--border);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     margin-top: 5px;
 }
 
 dl.muestraunapequeñaimagenentusmensajes\.sólopuedemostrarseunaimagenalavez\,suanchuranopuedesuperar250píxeles\,sualtura400\,yeltamañodelficheronomásde64kb\. san {
     border: var(--border);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     text-align: center;
     padding: 2px;
     text-transform: uppercase;
@@ -988,7 +988,7 @@ dl.muestraunapequeñaimagenentusmensajes\.sólopuedemostrarseunaimagenalavez\,su
 #cp-main table.table1 thead th, #cp-main table.table1 td {
     background: var(--background);
     border: var(--border);
-    border-radiusadius: 5px;
+    border-radius: 5px;
     text-align: center !important;
     text-shadow: var(--text-shadow);
     box-sizing: border-box;
@@ -1048,7 +1048,7 @@ table#memberlist tbody td:nth-child(2), table#memberlist tbody td:nth-child(7) {
 .sempanel h2.h3 {
     background: var(--background);
     padding: 10px 20px;
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     border: var(--border);
     text-shadow: none;
     font-family: 'Poppins';
@@ -1061,7 +1061,7 @@ table#memberlist tbody td:nth-child(2), table#memberlist tbody td:nth-child(7) {
 form#form_confirm .panel {
     overflow: hidden;
     background: var(--background);
-    border-radiusadius: var(--border-radius);
+    border-radius: var(--border-radius);
 }
 
 form#form_confirm .page-title {
@@ -1100,7 +1100,7 @@ form#form_confirm .fields2 dl {
 }
 
 form#form_confirm .fields2 > dl {
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     flex-grow: 1;
 }
 
@@ -1111,7 +1111,7 @@ form#form_confirm .fields2 > dl:nth-child(1) > dt {
     font-size: .7rem;
     font-weight: 800 !important;
     border: var(--border);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     padding: 3px 10px;
     text-align: center;
 }
@@ -1137,7 +1137,7 @@ position: fixed;
 width: 45px;
     height: 45px;
     border: 0;
-    border-radiusadius: 13px;
+    border-radius: 13px;
     cursor: pointer;
     background: rgb(20 20 24 / .92);
     color: #fff;
@@ -1149,7 +1149,7 @@ position: absolute;
     right: 0;
     top: 55px;
     width: 280px;
-    border-radiusadius: 14px;
+    border-radius: 14px;
     overflow: hidden;
     background: #0e0e0e;
     color: #fff;
@@ -1183,7 +1183,7 @@ display: flex;
 #szSwHead button {
 cursor: pointer;
     border: 0;
-    border-radiusadius: 10px;
+    border-radius: 10px;
     padding: 6px 8px;
     background: #202020;
     color: #fff;
@@ -1205,7 +1205,7 @@ cursor: pointer;
   gap: 10px;
   align-items: center;
   padding: 5px;
-  border-radiusadius: 10px;
+  border-radius: 10px;
   cursor: pointer;
 }
  
@@ -1221,7 +1221,7 @@ cursor: pointer;
 #szSwList img {
   width: 28px;
   height: 28px;
-  border-radiusadius: 50%;
+  border-radius: 50%;
   object-fit: cover;
   background: rgba(255,255,255,.12);
 }
@@ -1324,7 +1324,7 @@ cursor: pointer;
 .switcheroo__squircle {
     position: relative;
     cursor: pointer;
-    transition: border-radiusadius 128ms var(--ease);
+    transition: border-radius 128ms var(--ease);
     margin-left: 0;
     height: 40px;
     border: var(--border);
@@ -1344,7 +1344,7 @@ cursor: pointer;
     height: 40px;
     object-fit: cover;
     object-position: center;
-    transition: border-radiusadius 128ms var(--ease);
+    transition: border-radius 128ms var(--ease);
     position: relative;
     border: var(--border);
     filter: grayscale(1) brightness(0.8);
@@ -1361,7 +1361,7 @@ cursor: pointer;
     content: "";
     display: none;
     border: var(--border);
-    border-radiusadius: 8px;
+    border-radius: 8px;
     height: 48px;
     width: 48px;
     opacity: 1;
@@ -1376,11 +1376,11 @@ cursor: pointer;
 /* Indicateur du compte sélectionné/actif */
 .switcheroo__squircle.active:before {
     opacity: 1;
-    border-radiusadius: 8px;
+    border-radius: 8px;
     border-color: var(--acento1);
 }
 .switcheroo__squircle:hover:before {
-    border-radiusadius: 8px;
+    border-radius: 8px;
     opacity: 1;
   transform 128ms var(--ease), opacity 64ms var(--ease);
 }
@@ -1417,7 +1417,7 @@ cursor: pointer;
   background: var(--background);
   position: absolute;
   width: max-content;
-  border-radiusadius: var(--border-radius);
+  border-radius: var(--border-radius);
   z-index: 999;
   opacity: 0;
   transition: opacity 64ms var(--ease), transform 128ms var(--ease-bounce);
@@ -1500,7 +1500,7 @@ cursor: pointer;
   /* à ajouter si vous voulez supprimer le logo*/
   
   background-color: var(--greyer);
-  border-radiusadius: 3px;
+  border-radius: 3px;
   transform: scale(0.8);
 }
 
@@ -1563,7 +1563,7 @@ cursor: pointer;
     transform: translate(-50%, -50%);
     background: var(--background);
     border: var(--border) !important;
-    border-radiusadius: var(--border-radius);
+    border-radius: var(--border-radius);
 }
   .monomer-modal__content {
     display: grid;
@@ -1578,7 +1578,7 @@ cursor: pointer;
     border-bottom: var(--border) !important;
     background: var(--background);
     padding: 12px 20px;
-    border-radiusadius: var(--border-radius) var(--border-radius) 0 0;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
     font-family: var(--font-text);
     font-size: ;
 }
@@ -1595,7 +1595,7 @@ cursor: pointer;
   flex-flow: column;
   align-items: flex-start;
   border: var(--border);
-  border-radiusadius: var(--border-radius-2);
+  border-radius: var(--border-radius-2);
   background: var(--background);
   padding: 10px;
 }
@@ -1609,12 +1609,12 @@ cursor: pointer;
     color: #fff;
     letter-spacing: .5px;
     padding: 4px 10px;
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
 }
 /* Zone de texte */
 .switcheroo__form-input {
     font-size: .8rem;
-    border-radiusadius: var(--border-radius-2) !important;
+    border-radius: var(--border-radius-2) !important;
     width: 100%;
     border: var(--border) !important;
     cursor: text;
@@ -1628,7 +1628,7 @@ cursor: pointer;
 
 /* Bouton de connexion */
 .switcheroo__form-button {
-    border-radiusadius: var(--border-radius);
+    border-radius: var(--border-radius);
     box-shadow: none;
     text-transform: uppercase;
     font-size: .65rem;
@@ -1663,7 +1663,7 @@ cursor: pointer;
     border: 0;
     outline: none;
     background: var(--background);
-    border-radiusadius: 50%;
+    border-radius: 50%;
     padding: 0;
     border: var(--border);
 }
@@ -1707,7 +1707,7 @@ li.switcheroo__squircle:hover .switcheroo__delete {
 
 div#find_username {
     border: var(--border);
-    border-radiusadius: var(--border-radius);
+    border-radius: var(--border-radius);
     background: var(--background);
     padding: 0;
     overflow: hidden;
@@ -1762,7 +1762,7 @@ p.sceditor-mention-user {
     padding: 5px 5px 5px 0;
     margin-bottom: 5px;
     border: var(--border);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     background: var(--background);
     display: flex;
     align-items: center;
@@ -1774,7 +1774,7 @@ p.sceditor-mention-user {
 .sceditor-mention-user img {
     background: var(--bck-2);
     border: var(--border);
-    border-radiusadius: var(--border-radius-2);
+    border-radius: var(--border-radius-2);
     height: 25px;
     width: 25px;
 }
@@ -1798,7 +1798,7 @@ div.sceditor-dropdown input:focus {
   padding: 5px 20px;
   box-sizing: border-box;
   margin: 0;
-  border-radiusadius: var(--border-radius);
+  border-radius: var(--border-radius);
   background: var(--background);
   text-transform: uppercase;
   font-size: .65rem;
@@ -1857,4 +1857,33 @@ div#info_open p {
 div#info_open p strong {
     padding-right: 5px;
     color: var(--accent);
+}
+.fcpanel {
+    border: var(--border);
+    margin-bottom: 10px;
+    border-radius: var(--border-radius);
+    background: var(--background-transparent);
+    padding: 20px;
+    overflow: hidden;
+}
+h1.fcpanel-page-title {
+    background: var(--background);
+    margin: -20px -20px 20px;
+    border-bottom: var(--border);
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: var(--accent);
+    font-weight: 800;
+    text-shadow: var(--text-shadow);
+    font-family: var(--font-text);
+    padding: 10px;
+}
+.fcpanel-contenido {
+    background: var(--background);
+    border: var(--border);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    font-size: .72rem;
+    color: var(--color-text);
+    text-shadow: var(--text-shadow);
 }
