@@ -452,7 +452,6 @@ form[name="go_page"] input.button {
     color: var(--accent);
     text-shadow: var(--text-shadow);
     font-weight: 600;
-    font-family: 'Sofia Sans Semi Condensed';
 }
 
 form[name="go_page"] tr td {
@@ -758,7 +757,6 @@ form[name="go_page"] input.button {
     color: var(--accent);
     text-shadow: var(--text-shadow);
     font-weight: 600;
-    font-family: 'Sofia Sans Semi Condensed';
 }
 
 form[name="go_page"] tr td {
@@ -871,7 +869,6 @@ form#ucp .inputbox {
     width: 100% !important;
     box-sizing: border-box;
     font-size: .8rem;
-    font-family: 'Sofia Sans Semi Condensed';
 }
 form#ucp .italic, form#ucp br {
     display: none;
@@ -1257,7 +1254,7 @@ cursor: pointer;
 :root {
 
     --red: var(--accent-1);
-    --font: 'Sofia Sans';
+    --font: var(--font-text);
     --gap-size: 10px 5px;
     --ease: cubic-bezier(0.4, 0.0, 0.2, 1);
     --ease-bounce: cubic-bezier(0.43, 0.09, 0.38, 2.56);
