@@ -1895,3 +1895,24 @@ h1.fcpanel-page-title {
     color: var(--color-text);
     text-shadow: var(--text-shadow);
 }
+ul#privmsgs-menu {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+ul#privmsgs-menu > li {
+    flex: 1 1 0;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: var(--background);
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: .65rem;
+    text-shadow: var(--text-shadow);
+    font-weight: 800;
+    margin: 0;
+}
+ul#privmsgs-menu a {font-weight: 800;}
+ul#privmsgs-menu > li:has(a) {background: var(--accent);text-shadow: none;}
+ul#privmsgs-menu > li:has(a) a {color: #ccc;}
