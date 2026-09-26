@@ -350,7 +350,7 @@ a.button1, input.button1, a.button2, input.button2, button.button2, .external-mo
     padding: unset !important;
     margin: 0 !important;
     margin-top: 0 !important;
-    background: hsl(from var(--background) h s calc(l - 2));
+    background: var(--background-2);
     border: var(--border);
 }
 .rep-button i, .rep-button svg {
@@ -363,7 +363,7 @@ a.button1, input.button1, a.button2, input.button2, button.button2, .external-mo
     color: var(--accent);
 }
 .fa_liked i {
-    color: hsl(from var(--background) h s calc(l - 2)) !important;
+    color:var(--background-2) !important;
     text-shadow: none !important;
 }
 button.rep-button.fa_liked {
