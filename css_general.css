@@ -227,13 +227,23 @@ div#tabs > ul {
     align-items: center;
     justify-content: center;
     padding: 5px 10px;
-    background: var(--background);
+    background: var(--accent);
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: .5px;
     font-size: .68rem;
-    text-shadow: var(--text-shadow);
     border-radius: var(--border-radius);
+}
+#tabs li a {
+    color: #fafafa;
+    font-size: .65rem;
+}
+div#tabs {margin: 0 0 5px;}
+#tabs .activetab a span {
+    color: var(--accent) !important;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-shadow: var(--text-shadow);
 }
 .panel.row3 {
     border-radius: var(--border-radius);
