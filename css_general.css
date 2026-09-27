@@ -292,12 +292,12 @@ fieldset dl {
 #cp-main .panel:not(:last-child) {
     margin-bottom: 20px;
 }
-
 #cp-main .panel {
     padding: 10px;
     font-size: .74rem;
     border-radius: var(--border-radius);
-    background: var(--background);
+    background: var(--background-transparent);
+    border: var(--border);
 }
 #tabs .activetab a span {
     color: #fff!important;
@@ -816,14 +816,14 @@ div#cp-main .panel dl {
     border: var(--border);
     box-sizing: border-box;
     width: auto !important;
-    border-radius: var(--border-radius-2);
-    background: var(--background);
-    font-family: 'Poppins';
-    font-weight: 500 !important;
-    font-style: italic;
-    text-transform: lowercase !important;
+    border-radius: var(--border-radius);
+    background: var(--gradient);
+    font-family: var(--font-text);
+    font-weight: 800 !important;
     color: #fafafa;
-    font-size: .85rem !important;
+    font-size: .75rem !important;
+    text-transform: uppercase !important;
+    padding: 12px 20px !important;
 }
 form#ucp fieldset dl {
     border: var(--border);
@@ -1021,13 +1021,12 @@ table#memberlist tbody {
     gap: 5px;
 }
 #cp-main table.table1 thead th {
-  font-size: .65rem;
-  font-weight: 800;
-  letter-spacing: .5px;
-  height: 25px;
-  background: var(--background);
-  text-shadow: none;
-  color: #fafafa;
+    font-size: .68rem;
+    background: var(--background-2);
+    text-shadow: none;
+    color: var(--accent);
+    text-shadow: var(--text-shadow);
+    font-weight: 900;
 }
 table.table1 tbody tr td {
   font-size: .72rem !important;
