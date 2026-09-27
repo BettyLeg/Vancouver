@@ -1044,13 +1044,16 @@ table.table1 tbody tr td {
   font-size: .72rem !important;
   color: var(--color-text) !important;
 }
-#cp-main table.table1 .posts i {font-size: .95rem;color: var(--background);}
-
+#cp-main table.table1 .posts i {
+    font-size: 1.1rem;
+    color: var(--color-icons);
+}
 table#memberlist tbody td:nth-child(4), table#memberlist tbody td:nth-child(6) {
-    font-family: 'Gabriel';
-    font-size: .76rem;
-    color: var(--accent);
-    font-weight: 700;
+    font-size: .76rem !important;
+    color: var(--accent) !important;
+    font-weight: 900;
+    font-family: var(--font-text);
+    letter-spacing: 0 !important;
 }
 table#memberlist tbody td:nth-child(2), table#memberlist tbody td:nth-child(7) {
   padding: 15px 10px;
