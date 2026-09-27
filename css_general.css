@@ -739,7 +739,8 @@ form[name="go_page"] table {
 }
 #s-m-t-tooltip {
     max-width: 350px;
-    margin: 25px 0 0 0;
+        z-index: 1000000;
+    margin: 55px 0 0 0;
     padding: 7px 10px;
     background: var(--background);
     font-family: var(--font-text);
