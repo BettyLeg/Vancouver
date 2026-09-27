@@ -10,7 +10,9 @@
     gap: 5px;
     flex-wrap: wrap;
 }
-
+form[name="jumpbox"] {
+    display: none;
+}
 #cp-main .panel fieldset.cjflex > dl {
     min-width: calc(calc(100% /2) - 25px);
     height: 100px;
