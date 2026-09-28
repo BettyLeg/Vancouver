@@ -1,3 +1,24 @@
+.fc-txt strong {
+    color: var(--accent);
+}
+.fc-txt a {
+    color: var(--accent);
+    background: hsl(from var(--accent) h s l /.4);
+    padding: 1px 4px;
+    border-radius: 5px;
+}
+.fc-txt u {
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+     border-bottom: 2px solid var(--accent);
+}
+.fc-txt{
+font-size: .8rem;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 18px;
+}
 div#fa_right {
     border: var(--border);
     background: var(--background-transparent);
@@ -724,41 +745,48 @@ blockquote > div > cite {
     justify-content: flex-start;
     text-transform: uppercase;
     border-bottom: var(--border);
-    background: hsl(from var(--background) h s l /.5);
-    color: var(--accent);
+    background: var(--gradient);
+    color: #ccc;
     margin: -10px -10px 10px;
     padding-left: 20px;
     font-size: .7rem;
-    text-shadow: var(--text-shadow);
+    text-shadow: none;
 }
 blockquote > div {
-    background: var(--background);
+    background: var(--background-2);
     border: var(--border);
     padding: 10px;
     position: relative;
     margin: 5px 10px;
-    border-radius: var(--border-radius-2);
+    border-radius: var(--border-radius);
     overflow: hidden;
+    font-size: 12.3px;
+    text-shadow: var(--text-shadow);
 }
 dl.codebox dt {
     border-bottom: var(--border);
-    color: var(--accent);
+    color: #ccc;
     display: block;
-    font-size: .7rem;
-    margin-bottom: 3px;
+    font-size: .72rem;
+    margin-bottom: 0;
     padding: 8px 20px;
-    background: hsl(from var(--background) h s l /.5);
+    background: var(--gradient);
     font-weight: 700;
-    text-shadow: var(--text-shadow);
+    text-shadow: none;
 }
 dl.codebox {
     border: var(--border);
     font-size: .7rem;
     padding: 0px;
-    margin:10px;
-    background: var(--background);
-    border-radius: var(--border-radius-2);
+    margin: 10px;
+    background: var(--background-2);
+    border-radius: var(--border-radius);
     overflow: hidden;
+}
+dl.codebox dd {
+    padding: 10px 0;
+    text-shadow: var(--text-shadow);
+    font-size: 12.3px;
 }
 dl.codebox code {
     display: block;
@@ -776,7 +804,7 @@ dl.codebox code {
 }
 .codebox.hidecode dd {
     padding: 10px;
-    color: var(--color-1);
+    color: var(--color-text);
 }
 dl.codebox dt span {float:right;}
 /* chatbox */
@@ -855,7 +883,7 @@ form[name="go_page"] table {
 #s-m-t-tooltip {
     max-width: 350px;
         z-index: 1000000;
-    margin: 55px 0 0 0;
+    margin: 35px 0 0 0;
     padding: 7px 10px;
     background: var(--background);
     font-family: var(--font-text);
