@@ -1,3 +1,121 @@
+div#fa_right {
+    border: var(--border);
+    background: var(--background-transparent);
+    overflow: hidden;
+    border-width: 0;
+    transition: .6s ease-in;
+    height: 0;
+
+}
+div#fa_right.notification {
+    opacity: 1;
+    border-width: 1px;
+    height: auto
+}
+.notis_panel {
+    display: flex;
+    border-bottom: var(--border);
+    overflow: hidden;
+    background: var(--gradient);
+    align-items: center;
+    width: 380px;
+    position: relative;
+    height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-right: 30px;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+.notis_panel avatar>div {
+    height: 70px;
+    border: 4px solid var(--accent);
+    border-radius: var(--border-radius);
+    overflow: hidden
+}
+.notis_panel>a {
+    text-transform: uppercase;
+    font-size: .8rem;
+    line-height: 100%;
+    font-weight: 800;
+    font-style: italic;
+    color: #ccc;
+}
+
+.notis_panel>span {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .65rem;
+    color:#ccc;
+}
+
+ul#notif_list {
+    display: grid;
+    gap: 5px;
+    max-height: 85vh;
+    overflow: auto;
+    padding: 5px;
+    box-sizing: border-box
+}
+
+.notis_panel>a>i {
+    margin-left: 10px
+}
+
+.notis_panel>span>i {
+    font-size: .5rem;
+    padding-left: 9px
+}
+
+li.see_all>a {
+    background: var(--accent);
+    border-radius: var(--border-radius);
+    width: 100%;
+    color: #fff;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 800
+}
+
+ul#notif_list>li:not(.see_all) {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: var(--background-1);
+    padding: 0 20px;
+    padding-right: 60px;
+    position: relative
+}
+
+ul#notif_list .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 100%;
+    font-size: .75rem;
+    font-weight: 500
+}
+
+ul#notif_list hr {
+    display: none
+}
+
+ul#notif_list .delete:after {
+    content: "\F5DE";
+    font-family: bootstrap-icons;
+    font-size: 1rem
+}
+div#fa_menu {
+    display: none;
+}
+ul#notif_list .delete {
+    position: absolute;
+    right: 15px
+}
 #cp-main h1.page-title {
     font-size: .9rem;
     text-transform: uppercase;
