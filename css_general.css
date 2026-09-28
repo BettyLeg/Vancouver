@@ -311,9 +311,6 @@ fieldset dl {
     background: var(--background-transparent);
     border: var(--border);
 }
-#tabs .activetab a span {
-    color: #fff!important;
-}
 #tabs .activetab {
     text-shadow: none;
     background: var(--background);
