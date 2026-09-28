@@ -3,7 +3,6 @@
 }
 .fc-txt a {
     color: var(--accent);
-    background: hsl(from var(--accent) h s l /.4);
     padding: 1px 4px;
     border-radius: 5px;
 }
