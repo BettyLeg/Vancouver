@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Vancouver";
-    src: url("fonts/Vancouver.woff2") format("woff2"),
-        url("fonts/Vancouver.ttf") format("truetype"),
-        url("fonts/Vancouver.woff") format("woff");
+    src: url("https://bettyleg.github.io/Vancouver/Vancouver.otf") format("woff2"),
+        url("https://bettyleg.github.io/Vancouver/Vancouver.ttf") format("truetype"),
+        url("https://bettyleg.github.io/Vancouver/Vancouver.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: block;
