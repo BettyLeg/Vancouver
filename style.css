@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'VanIcons';
-  src:  url('fonts/VanIcons.eot?75gvcf');
-  src:  url('fonts/VanIcons.eot?75gvcf#iefix') format('embedded-opentype'),
-    url('fonts/VanIcons.ttf?75gvcf') format('truetype'),
-    url('fonts/VanIcons.woff?75gvcf') format('woff'),
-    url('fonts/VanIcons.svg?75gvcf#VanIcons') format('svg');
+  src:  url('https://bettyleg.github.io/Vancouver/VanIcons.eot');
+  src:  url('https://bettyleg.github.io/Vancouver/VanIcons.eot') format('embedded-opentype'),
+    url('https://bettyleg.github.io/Vancouver/VanIcons.ttf') format('truetype'),
+    url('https://bettyleg.github.io/Vancouver/VanIcons.woff') format('woff'),
+    url('https://bettyleg.github.io/Vancouver/VanIcons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
