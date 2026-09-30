@@ -1,22 +1,45 @@
 @font-face {
-    font-family: "Vancouver";
-    src: url("https://bettyleg.github.io/Vancouver/Vancouver.otf") format("woff2"),
-        url("https://bettyleg.github.io/Vancouver/Vancouver.ttf") format("truetype"),
-        url("https://bettyleg.github.io/Vancouver/Vancouver.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
+  font-family: 'VanIcons';
+  src:  url('fonts/VanIcons.eot?75gvcf');
+  src:  url('fonts/VanIcons.eot?75gvcf#iefix') format('embedded-opentype'),
+    url('fonts/VanIcons.ttf?75gvcf') format('truetype'),
+    url('fonts/VanIcons.woff?75gvcf') format('woff'),
+    url('fonts/VanIcons.svg?75gvcf#VanIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
-.vicon {
-    /* Use !important to prevent extensions from overriding this font. */
-    font-family: "Vancouver" !important;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'VanIcons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vaic-government:before {
+  content: "\e900";
+}
+.vaic-inactivos:before {
+  content: "\e901";
+}
+.vaic-civils:before {
+  content: "\e902";
+}
+.vaic-staff:before {
+  content: "\e903";
+}
+.vaic-underworld:before {
+  content: "\e904";
+}
+.vaic-the-corp:before {
+  content: "\e905";
 }
